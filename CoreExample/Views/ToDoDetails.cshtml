@@ -1,0 +1,18 @@
+﻿@model CoreExample.Models.ToDo
+
+@{
+    ViewData["Title"] = "ToDoDetails";
+}
+
+<h2>ToDoDetails</h2>
+
+<div>
+    <h4>ToDo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
